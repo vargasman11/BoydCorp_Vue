@@ -1,0 +1,51 @@
+<template>
+  <div id="people-container">
+    <div id="white-wrapper">
+      <div class="row">
+        <!-- lady-left -->
+        <div class="col-sm-12 col-md-4 card-container">
+          <div class="card mx-auto" id="left-card">
+            <div class="card-body">
+              <a href="/About-Us">
+                <h4 class="card-text">Who we are and what we stand for!</h4>
+                <p>Find out more <img src="@/assets/Boyd-images/Red_arrow.png" alt=""></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- man middle -->
+        <div class="col-sm-12 col-md-4 card-container">
+          <div class="card mx-auto" id="middle-card">
+            <div class="card-body">
+              <a href="/Testimonials">
+                <h4 class="card-text">Why Boyd Bros. is the smart choice</h4>
+                <p>Learn more <img src="@/assets/Boyd-images/Red_arrow.png" alt=""></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- man right -->
+        <div class="col-sm-12 col-md-4 card-container">
+          <div class="card mx-auto" id="right-card">
+            <div class="card-body">
+              <a href="https://drive4boyd.com/lp.php" target="_blank">
+                <h4 class="card-text">Interested in Lease Purchase?</h4>
+                <p>Learn More! <img src="@/assets/Boyd-images/Red_arrow.png" alt=""></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "HomeCards"
+}
+</script>
+
+<style scoped>
+
+</style>
